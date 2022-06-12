@@ -41,66 +41,82 @@ function mainloop() {
     if (system[1] === 1) {
         ctx.fillText("〇の勝ち！", 188, 700);
         alert("〇の勝ち！");
+        clearInterval(main);
     }
     if (system[1] === 2) {
         ctx.fillText("✕の勝ち！", 188, 700);
         alert("✕の勝ち！");
+        clearInterval(main);
     }
     if (system[1] === 3) {
         ctx.fillText("〇の勝ち！", 188, 700);
         alert("〇の勝ち！");
+        clearInterval(main);
     }
     if (system[1] === 4) {
         ctx.fillText("✕の勝ち！", 188, 700);
         alert("✕の勝ち！");
+        clearInterval(main);
     }
     if (system[1] === 5) {
         ctx.fillText("〇の勝ち！", 188, 700);
         alert("〇の勝ち！");
+        clearInterval(main);
     }
     if (system[1] === 6) {
         ctx.fillText("✕の勝ち！", 188, 700);
         alert("✕の勝ち！");
+        clearInterval(main);
     }
     if (system[1] === 7) {
         ctx.fillText("〇の勝ち！", 188, 700);
         alert("〇の勝ち！");
+        clearInterval(main);
     }
     if (system[1] === 8) {
         ctx.fillText("✕の勝ち！", 188, 700);
         alert("✕の勝ち！");
+        clearInterval(main);
     }
     if (system[1] === 9) {
         ctx.fillText("〇の勝ち！", 188, 700);
         alert("〇の勝ち！");
+        clearInterval(main);
     }
     if (system[1] === 10) {
         ctx.fillText("✕の勝ち！", 188, 700);
         alert("✕の勝ち！");
+        clearInterval(main);
     }
     if (system[1] === 11) {
         ctx.fillText("〇の勝ち！", 188, 700);
         alert("〇の勝ち！");
+        clearInterval(main);
     }
     if (system[1] === 12) {
         ctx.fillText("✕の勝ち！", 188, 700);
         alert("✕の勝ち！");
+        clearInterval(main);
     }
     if (system[1] === 13) {
         ctx.fillText("〇の勝ち！", 188, 700);
         alert("〇の勝ち！");
+        clearInterval(main);
     }
     if (system[1] === 14) {
         ctx.fillText("✕の勝ち！", 188, 700);
         alert("✕の勝ち！");
+        clearInterval(main);
     }
     if (system[1] === 15) {
         ctx.fillText("〇の勝ち！", 188, 700);
         alert("〇の勝ち！");
+        clearInterval(main);
     }
     if (system[1] === 16) {
         ctx.fillText("✕の勝ち！", 188, 700);
         alert("✕の勝ち！");
+        clearInterval(main);
     }
 }
 
@@ -220,4 +236,4 @@ function check() {
     if (position[0][2] === position[1][1] && position[1][1] === position[2][0] && position[0][2] === 0) system[1] = 15;
     if (position[0][2] === position[1][1] && position[1][1] === position[2][0] && position[0][2] === 1) system[1] = 16;
 }
-setInterval(mainloop, 20);
+const main = setInterval(mainloop, 20);
